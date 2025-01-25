@@ -1,9 +1,42 @@
-Présentation générale du projet : 
+# Graph Search Algorithms: Comparative Analysis
 
-Ce projet consiste à explorer et comparer trois techniques de recherche dans un graphe d'états : la recherche en largeur, la recherche en profondeur et l'algorithme A*. Ces méthodes sont utilisées pour résoudre des problèmes complexes en informatique, tels que les jeux, l’optimisation ou la navigation. Le but est d'analyser leur efficacité en termes de temps d'exécution et de nœuds explorés.
+## 📖 Project Overview
 
-Objectifs du TP :
+This project explores and compares three graph search techniques: **Breadth-First Search (BFS)**, **Depth-First Search (DFS)**, and the **A* Algorithm**. These methods are widely used in computer science to solve complex problems such as games, optimization tasks, and navigation systems. The goal is to evaluate their efficiency in terms of execution time and the number of nodes explored.
 
-Implémenter les trois algorithmes sur un même problème.
-Comparer leurs performances sur des critères quantitatifs (nombre de nœuds explorés et temps d'exécution).
-Identifier les points forts et les limites de chaque méthode pour mieux comprendre leurs domaines d'application respectifs.
+---
+
+## 🎯 Objectives
+
+1. **Implementation**: Develop and implement the three algorithms to solve the same problem.  
+2. **Performance Comparison**: Analyze and compare the algorithms based on quantitative criteria:
+   - **Execution Time**: Measure how long each algorithm takes to find a solution.  
+   - **Explored Nodes**: Count the number of nodes visited during the search process.  
+3. **Insights**: Identify the strengths and limitations of each method to understand their respective areas of application.
+
+---
+
+## 💡 Key Features
+
+- **Breadth-First Search (BFS)**:
+  - Explores all nodes at the current depth before moving deeper.
+  - Guarantees the shortest path in an unweighted graph but can be resource-intensive.
+
+- **Depth-First Search (DFS)**:
+  - Explores as far as possible along a branch before backtracking.
+  - Uses less memory but may not guarantee the shortest path.
+
+- **A* Algorithm**:
+  - Combines the benefits of BFS and heuristic-driven search for efficient pathfinding.
+  - Balances exploration and optimization using a cost function.
+
+---
+
+## 🔍 Comparative Analysis
+
+- **Execution Time**: Evaluate which algorithm is faster for different problem sizes.  
+- **Explored Nodes**: Assess the efficiency of each method in terms of resource usage.  
+- **Suitability**: Discuss the specific contexts where each algorithm excels.
+
+
+
