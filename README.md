@@ -26,7 +26,7 @@ This project explores and compares three graph search techniques: **Breadth-Firs
   - Explores as far as possible along a branch before backtracking.
   - Uses less memory but may not guarantee the shortest path.
 
-- **A* Algorithm**:
+- **A-star-Algorithm**:
   - Combines the benefits of BFS and heuristic-driven search for efficient pathfinding.
   - Balances exploration and optimization using a cost function.
 
