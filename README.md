@@ -2,7 +2,7 @@
 
 ## 📖 Project Overview
 
-This project explores and compares three graph search techniques: **Breadth-First Search (BFS)**, **Depth-First Search (DFS)**, and the **A* Algorithm**. These methods are widely used in computer science to solve complex problems such as games, optimization tasks, and navigation systems. The goal is to evaluate their efficiency in terms of execution time and the number of nodes explored.
+This project explores and compares three graph search techniques: **Breadth-First Search (BFS)**, **Depth-First Search (DFS)**, and the **A Star Algorithm**. These methods are widely used in computer science to solve complex problems such as games, optimization tasks, and navigation systems. The goal is to evaluate their efficiency in terms of execution time and the number of nodes explored.
 
 ---
 
